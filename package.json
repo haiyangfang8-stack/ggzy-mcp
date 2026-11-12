@@ -1,0 +1,39 @@
+{
+  "name": "ggzy-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for China's national public resource trading platform (ggzy.gov.cn) - search tender and procurement announcements from AI agents",
+  "type": "module",
+  "bin": {
+    "ggzy-mcp": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "tender",
+    "procurement",
+    "ggzy",
+    "china",
+    "bidding",
+    "ai"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
