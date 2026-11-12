@@ -87,6 +87,10 @@ legacy ERPs. This project is one adapter for one of those systems.
 
 If you need a different one, the pattern is the same: find the XHR, replay it, wrap it in MCP.
 
+## Related
+
+- [**gov-policy-mcp**](https://github.com/haiyangfang8-stack/gov-policy-mcp) — same pattern, applied to the State Council policy document library (国务院政策文件).
+
 ## License
 
 MIT
